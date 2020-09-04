@@ -20,7 +20,7 @@ html {
 }
 
 .menupage {
-    background: url('https://pixabay.com/get/51e3d4404f53b108feda8460da2932771d36dbe6525876_1920.jpg');
+    background: url('./images/kitchen.jpg');
     background-attachment: fixed;
     display: flex;
     flex-flow: column;

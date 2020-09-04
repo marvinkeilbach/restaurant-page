@@ -3,14 +3,14 @@ const renderMenuPage = function() {
     const container = document.querySelector('#content');
 
     const menu1Content = 
-    `<p class="menutext">Sundries from the south</p><img src="https://pixabay.com/get/54e0d54a4f5bac14f6da8c7dda35367b1c37d7e05655774c_1280.jpg" alt="">`
+    `<p class="menutext">Sundries from the south</p><img src="./images/sundries.jpg" alt="">`
     const menu2Content = 
-    `<img src="https://pixabay.com/get/55e6dc444a53a814f6da8c7dda35367b1c37d7e05058774f_1280.jpg" alt="">
+    `<img src="./images/green-smoothies.jpg" alt="">
     <p class="menutext">Green Smoothies</p>
     <p class="menutext">Sweet Smoothies</p>
-    <img src="https://pixabay.com/get/55e1d2454955ad14f6d1867dda35367b1c37d7e057507349_1920.jpg" alt="">
-    <img src="https://pixabay.com/get/54e4d1434b50ab14f6da8c7dda35367b1c37d7e056507841_1280.jpg" alt="">
-    <p class="menutext">Breakfast Bowls</p></div>`
+    <img src="https://images.unsplash.com/photo-1507120366498-4656eaece7fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="">
+    <img src="https://images.unsplash.com/photo-1536184071535-78906f7172c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2020&q=80" alt="">
+    <p class="menutext">Breakfast & Brunch</p></div>`
 
     const menuPage = document.createElement('div');
     const navbar = document.createElement('div');
